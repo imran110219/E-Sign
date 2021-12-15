@@ -15,9 +15,6 @@ import sun.security.x509.X500Name;
  * @author Sadman
  */
 public class Util {
-
-
-
     public static String convertKeyToString(Key key){
         return Base64.getEncoder().encodeToString(key.getEncoded());
     }
